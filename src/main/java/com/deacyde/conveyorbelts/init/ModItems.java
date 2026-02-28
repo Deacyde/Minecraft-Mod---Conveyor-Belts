@@ -14,7 +14,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ConveyorBeltsMod.MOD_ID);
 
-    // Block items
     public static final RegistryObject<Item> CONVEYOR_BELT_SLOW_ITEM = registerBlockItem("conveyor_belt_slow", ModBlocks.CONVEYOR_BELT_SLOW);
     public static final RegistryObject<Item> CONVEYOR_BELT_ITEM      = registerBlockItem("conveyor_belt", ModBlocks.CONVEYOR_BELT);
     public static final RegistryObject<Item> CONVEYOR_BELT_FAST_ITEM = registerBlockItem("conveyor_belt_fast", ModBlocks.CONVEYOR_BELT_FAST);
@@ -33,11 +32,10 @@ public class ModItems {
     public static final RegistryObject<Item> CONVEYOR_CHEST_ITEM     = registerBlockItem("conveyor_chest", ModBlocks.CONVEYOR_CHEST);
     public static final RegistryObject<Item> VACUUM_PLATE_ITEM       = registerBlockItem("vacuum_plate", ModBlocks.VACUUM_PLATE);
 
-    // Wrench tool — used to rotate belt blocks
     public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new Item(new Item.Properties().setId(ITEMS.key("wrench")).stacksTo(1)));
 
     private static RegistryObject<Item> registerBlockItem(String name, Supplier<? extends net.minecraft.world.level.block.Block> block) {
-        return ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(ITEMS.key(name))));
     }
 }
