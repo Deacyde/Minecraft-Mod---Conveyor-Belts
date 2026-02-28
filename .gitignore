@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+run/
+run-data/
+out/
+logs/
+
+# Generated resources
+src/generated/resources/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Forge
+mcmodsrepo/
