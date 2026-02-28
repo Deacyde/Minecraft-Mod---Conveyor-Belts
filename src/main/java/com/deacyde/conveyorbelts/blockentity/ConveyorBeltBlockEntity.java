@@ -3,6 +3,7 @@ package com.deacyde.conveyorbelts.blockentity;
 import com.deacyde.conveyorbelts.block.*;
 import com.deacyde.conveyorbelts.init.ModBlockEntities;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.level.Level;
@@ -24,7 +25,7 @@ public class ConveyorBeltBlockEntity extends BlockEntity {
     }
 
     public static void tick(Level level, BlockPos pos, BlockState state, ConveyorBeltBlockEntity be) {
-        if (level.isClientSide) return;
+        if (level.isClientSide()) return;
 
         Block block = state.getBlock();
 

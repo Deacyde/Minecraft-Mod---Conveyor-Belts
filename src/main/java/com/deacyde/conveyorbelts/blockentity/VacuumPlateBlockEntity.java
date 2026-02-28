@@ -29,7 +29,7 @@ public class VacuumPlateBlockEntity extends BlockEntity {
     }
 
     public static void tick(Level level, BlockPos pos, BlockState state, VacuumPlateBlockEntity be) {
-        if (level.isClientSide) return;
+        if (level.isClientSide()) return;
 
         be.tickCounter++;
 

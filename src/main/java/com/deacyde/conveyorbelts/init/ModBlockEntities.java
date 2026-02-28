@@ -9,6 +9,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Set;
+
 public class ModBlockEntities {
 
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
@@ -16,7 +18,7 @@ public class ModBlockEntities {
 
     public static final RegistryObject<BlockEntityType<ConveyorBeltBlockEntity>> CONVEYOR_BELT_BE =
             BLOCK_ENTITIES.register("conveyor_belt_be", () ->
-                    BlockEntityType.Builder.of(ConveyorBeltBlockEntity::new,
+                    new BlockEntityType<>(ConveyorBeltBlockEntity::new, Set.of(
                             ModBlocks.CONVEYOR_BELT_SLOW.get(),
                             ModBlocks.CONVEYOR_BELT.get(),
                             ModBlocks.CONVEYOR_BELT_FAST.get(),
@@ -29,17 +31,17 @@ public class ModBlockEntities {
                             ModBlocks.SPLITTER_BELT.get(),
                             ModBlocks.MERGER_BELT.get(),
                             ModBlocks.DETECTOR_BELT.get()
-                    ).build(null));
+                    )));
 
     public static final RegistryObject<BlockEntityType<ConveyorChestBlockEntity>> CONVEYOR_CHEST_BE =
             BLOCK_ENTITIES.register("conveyor_chest_be", () ->
-                    BlockEntityType.Builder.of(ConveyorChestBlockEntity::new,
+                    new BlockEntityType<>(ConveyorChestBlockEntity::new, Set.of(
                             ModBlocks.CONVEYOR_CHEST.get()
-                    ).build(null));
+                    )));
 
     public static final RegistryObject<BlockEntityType<VacuumPlateBlockEntity>> VACUUM_PLATE_BE =
             BLOCK_ENTITIES.register("vacuum_plate_be", () ->
-                    BlockEntityType.Builder.of(VacuumPlateBlockEntity::new,
+                    new BlockEntityType<>(VacuumPlateBlockEntity::new, Set.of(
                             ModBlocks.VACUUM_PLATE.get()
-                    ).build(null));
+                    )));
 }
