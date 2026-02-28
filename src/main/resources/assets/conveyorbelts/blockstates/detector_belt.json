@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "detecting=false,facing=north": {
+      "model": "conveyorbelts:block/detector_belt",
+      "y": 0
+    },
+    "detecting=true,facing=north": {
+      "model": "conveyorbelts:block/detector_belt_on",
+      "y": 0
+    },
+    "detecting=false,facing=east": {
+      "model": "conveyorbelts:block/detector_belt",
+      "y": 90
+    },
+    "detecting=true,facing=east": {
+      "model": "conveyorbelts:block/detector_belt_on",
+      "y": 90
+    },
+    "detecting=false,facing=south": {
+      "model": "conveyorbelts:block/detector_belt",
+      "y": 180
+    },
+    "detecting=true,facing=south": {
+      "model": "conveyorbelts:block/detector_belt_on",
+      "y": 180
+    },
+    "detecting=false,facing=west": {
+      "model": "conveyorbelts:block/detector_belt",
+      "y": 270
+    },
+    "detecting=true,facing=west": {
+      "model": "conveyorbelts:block/detector_belt_on",
+      "y": 270
+    }
+  }
+}

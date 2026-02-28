@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "SIS",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "item": "conveyorbelts:corner_belt_slow",
+    "count": 4
+  }
+}

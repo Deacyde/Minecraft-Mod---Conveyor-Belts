@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "IBI",
+    "SSS"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:smooth_stone",
+    "B": "minecraft:iron_block"
+  },
+  "result": {
+    "item": "conveyorbelts:slope_belt_slow",
+    "count": 4
+  }
+}

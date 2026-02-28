@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "conveyorbelts:block/conveyor_belt_side",
+    "down": "conveyorbelts:block/conveyor_belt_side",
+    "up": "conveyorbelts:block/corner_belt_top_off",
+    "north": "conveyorbelts:block/conveyor_belt_side",
+    "south": "conveyorbelts:block/conveyor_belt_side",
+    "east": "conveyorbelts:block/conveyor_belt_side",
+    "west": "conveyorbelts:block/conveyor_belt_side"
+  }
+}

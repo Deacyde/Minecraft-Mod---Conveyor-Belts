@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IHI",
+    "PPP",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "H": "minecraft:hopper",
+    "P": "minecraft:oak_planks"
+  },
+  "result": {
+    "item": "conveyorbelts:conveyor_chest",
+    "count": 1
+  }
+}

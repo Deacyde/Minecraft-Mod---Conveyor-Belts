@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "IBI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "P": "minecraft:piston",
+    "B": "minecraft:iron_block"
+  },
+  "result": {
+    "item": "conveyorbelts:splitter_belt",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "IBI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:comparator",
+    "B": "minecraft:iron_block"
+  },
+  "result": {
+    "item": "conveyorbelts:detector_belt",
+    "count": 2
+  }
+}

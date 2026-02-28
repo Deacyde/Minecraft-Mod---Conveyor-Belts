@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "conveyorbelts:conveyor_belt"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "conveyorbelts:conveyor_belt_fast",
+    "count": 1
+  }
+}

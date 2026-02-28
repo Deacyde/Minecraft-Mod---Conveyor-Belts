@@ -1,0 +1,19 @@
+{
+  "block.conveyorbelts.conveyor_belt_slow": "Conveyor Belt (Slow)",
+  "block.conveyorbelts.conveyor_belt": "Conveyor Belt",
+  "block.conveyorbelts.conveyor_belt_fast": "Conveyor Belt (Fast)",
+  "block.conveyorbelts.corner_belt_slow": "Corner Belt (Slow)",
+  "block.conveyorbelts.corner_belt": "Corner Belt",
+  "block.conveyorbelts.corner_belt_fast": "Corner Belt (Fast)",
+  "block.conveyorbelts.slope_belt_slow": "Slope Belt (Slow)",
+  "block.conveyorbelts.slope_belt": "Slope Belt",
+  "block.conveyorbelts.slope_belt_fast": "Slope Belt (Fast)",
+  "block.conveyorbelts.splitter_belt": "Splitter Belt",
+  "block.conveyorbelts.merger_belt": "Merger Belt",
+  "block.conveyorbelts.detector_belt": "Detector Belt",
+  "block.conveyorbelts.conveyor_chest": "Conveyor Chest",
+  "block.conveyorbelts.vacuum_plate": "Vacuum Plate",
+  "item.conveyorbelts.wrench": "Wrench",
+  "itemGroup.conveyorbelts.conveyor_tab": "Conveyor Belts",
+  "tooltip.conveyorbelts.wrench": "Right-click belt to rotate. Shift+right-click corner belt to flip turn direction."
+}
